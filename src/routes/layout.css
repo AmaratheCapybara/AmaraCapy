@@ -94,18 +94,43 @@
         margin-bottom: 0.3em;
     }
 }
-nav {
+nav { /* I know you did not give my job to AI smh -Aurora*/
     position: sticky;        /* sticks while scrolling */
     top: 0;                  /* required for sticky */
     z-index: 1000;           /* stays above content */
 
-    width: 100vw;            /* full screen width */
+    width:100%; /* full screen width */
+    height:10%;
+    min-height: 100px;
     background-color: magenta;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    padding: 0.75rem 1.5rem;
+    padding: .5%;
     box-sizing: border-box;
+}
+nav ul {
+    position: relative;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 100%;
+
+}
+.nava {
+    position: absolute;
+    height: 80%;
+    max-height: 90%;
+    padding: 10%;
+    margin: 1%;
+    color: cyan;
+    background-color: magenta;
+    text-decoration: none;
+    border-radius: 15px 50px 30px;
+}
+.nava:hover {
+    background-color: saddlebrown;
+    cursor: alias;
 }
