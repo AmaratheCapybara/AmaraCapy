@@ -24,9 +24,6 @@
 		"vite": "^7.2.6"
 	},
 	"dependencies": {
-		"@polar-sh/sveltekit": "^0.7.3",
-		"@stripe/stripe-js": "^8.5.3",
-		"stripe": "^20.0.0",
 		"zod": "^4.3.5"
 	}
 }
