@@ -93,54 +93,61 @@
         line-height: 1.4;
         margin-bottom: 0.3em;
     }
-}
-nav { /* I know you did not give my job to AI smh -Aurora*/
-    position: sticky;        /* sticks while scrolling */
-    top: 0;                  /* required for sticky */
-    z-index: 1000;           /* stays above content */
 
-    width:100%; /* full screen width */
-    height:10%;
-    min-height: 100px;
-    background-color: magenta;
+    nav { /* I know you did not give my job to AI smh -Aurora*/
+        position: sticky;        /* sticks while scrolling */
+        top: 0;                  /* required for sticky */
+        z-index: 1000;           /* stays above content */
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+        width:100%; /* full screen width */
+        height:10%;
+        min-height: 100px;
+        background-color: magenta;
 
-    padding: .5%;
-    box-sizing: border-box;
-    div {
-        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: .5%;
+        box-sizing: border-box;
+        div {
+            position: relative;
+        }
     }
-}
-nav ul {
-    position: absolute;
-    align-content: center;
-    justify-content: space-between;
-    width: 100%;
-    min-width: 100%;
-    li {
-        position: relative;
-        justify-content: flex-start;
-        justify-self: flex-start;
+    nav ul {
+        position: absolute;
+        align-content: center;
+        justify-content: space-between;
         width: 100%;
+        min-width: 100%;
+        li {
+            position: relative;
+            justify-content: flex-start;
+            justify-self: flex-start;
+            width: 100%;
+        }
+
     }
 
-}
-.nava {
-    position: absolute;
-    height: 80%;
-    max-height: 90%;
-    padding: 10%;
-    margin: 1%;
-    color: cyan;
-    background-color: magenta;
-    text-decoration: none;
-    border-radius: 15px 50px 30px;
 
-}
-.nava:hover {
-    background-color: saddlebrown;
-    cursor: alias;
+
+
+    /*Homebrew classes*/
+    .nava {
+        position: relative;
+
+        height: 80%;
+        max-height: 90%;
+        padding: 2%;
+        margin: 1%;
+        color: cyan;
+        background-color: magenta;
+        text-decoration: none;
+        border-radius: 15px 50px 30px;
+
+    }
+    .nava:hover {
+        background-color: saddlebrown;
+        cursor: alias;
+    }
 }
